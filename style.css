@@ -1,0 +1,255 @@
+:root {
+    --primary-color: #29a598;
+    --text-color: #394c4a;
+    --background-light: #ffffff;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 110%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header-background {
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), 
+                url("TheLostForest.jpg") center center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 1.2rem;
+}
+
+.header-content img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.header-content h1, .header-content p {
+    margin: 0.5rem 0;
+    font-family: 'Unica One', cursive;
+
+}
+
+#about {
+    background-color: #ffffff; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 40%;
+    height: auto; 
+    border-radius: 50%; 
+}
+
+#portfolio {
+    background-color: #0fbfbf; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#toolkit{
+    background:greenyellow;
+    text-align:center;
+    padding:50px;
+    
+}
+#toolkit h2{
+    position: relative;
+    bottom:20px;
+}
+.a{
+    display:flex;
+
+}
+.a .b{
+    width:300px;
+    margin-left:150px;
+    padding:10px;
+    border:1px white solid;
+}
+.a .b hr{
+    border-top:2px dotted white;
+}
+.a .b h2{
+    position: relative;
+    bottom:20px;
+    top:20px;
+font-size:20px;
+}
+#Educ{
+    text-align:center;
+    Background:var(--text-color);
+    color:white;
+    padding-bottom:10px;
+    padding:100px;
+    
+}
+#Educ h2{
+    color:white;
+    margin-top:-10px;
+    position: relative;
+    bottom:20px;
+}
+#Educ ul{
+    text-align:left;
+    margin-bottom:10px;
+
+}
+#Educ ul li{
+    font-family:'Gloria Hallelujah', cursive;
+    margin:10px;
+    margin-bottom:20px;
+}
+#Hobby{
+    text-align:center;
+    background: #333;
+    color: white;
+    padding:100px;
+}
+#Hobby h2{
+    color: white;
+    position: relative;
+    bottom:20px;
+    
+}
+#hobby .a{
+    display:flex;
+    text-align:center;
+   
+
+
+}
+#Hobby .a img{
+    width: 200px;
+    height: 200px;
+    margin:30px;
+}
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 50px;
+    display: inline-block;
+    line-height: 200px;
+}
+.project .a{
+    width: 200px;
+    height: 200px;
+}
+.project .a:hover {
+    height:50vh;
+    width:50vh;
+}
+
+#contact {
+    background-color: #ffbc4b; 
+    padding: 20px;
+    margin-top:-10px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+#contact form{
+    text-align:center;
+}
+#contact button{
+    margin-left:-1400px;
+}
+.td-btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+     background-color: #0fbfbf; 
+
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+.v{
+    position:absolute;
+    top:3950px;
+    right:10px;
+
+}
+.q{
+    position:absolute;
+    right:10px;
+    top:4450px;
+}
+
+h2 {
+    color: #333;
+    font-family: 'Unica One', cursive;
+    font-size: 2.3rem;
+}
+
+a {
+    color: #29a598;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #208479;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+  .profile-photo {
+        width: 50%; 
+        margin: 0 auto; 
+    }
+}
