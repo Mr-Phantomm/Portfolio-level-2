@@ -5,9 +5,6 @@
     --header-height: 100vh;
 }
 
-/* *, *::before, *::after {
-    box-sizing: border-box;
-} */
 
 html {
     font-size: 110%;
@@ -200,7 +197,7 @@ font-size:20px;
     text-align:center;
 }
 #contact button{
-    margin-left:-1400px;
+    margin-left:-1100px;
 }
 .td-btn {
     padding: 12px 36px;
@@ -217,14 +214,14 @@ footer {
 }
 .v{
     position:absolute;
-    top:3950px;
+    top:3800px;
     right:10px;
 
 }
 .q{
     position:absolute;
     right:10px;
-    top:4450px;
+    top:4300px;
 }
 
 h2 {
